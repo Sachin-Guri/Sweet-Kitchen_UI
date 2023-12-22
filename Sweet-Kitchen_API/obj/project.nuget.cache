@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "cViyxBpiydOTm06KX/q2sGiFP+FxViNiw+vOnf8u1Bf9QPetqIIA+THX1qdupd76oKmPYqcVqE5M7jt6xsYHtQ==",
+  "success": true,
+  "projectFilePath": "D:\\Sachin\\Angular\\Sweet-Kitchen_UI\\Sweet-Kitchen_API\\Sweet-Kitchen_API.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.8.100.58:34521/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

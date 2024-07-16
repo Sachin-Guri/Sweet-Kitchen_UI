@@ -30,5 +30,4 @@ jobs:
           server: ${{ secrets.GIT_CPANEL_BALAJI_SERVER }}
           username: ${{ secrets.GIT_CPANEL_BALAJI_USER }}
           password: ${{ secrets.GIT_CPANEL_BALAJI_PWD }}
-          protocol: ${{ secrets.GIT_CPANEL_BALAJI_PROTOCOL }}
           local-dir: ./Sweet-kitchen_UI/dist/sweet-kitchen-ui/browser/

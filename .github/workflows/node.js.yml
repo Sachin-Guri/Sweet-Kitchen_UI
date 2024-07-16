@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: | 
+      - run: |
           cd Sweet-kitchen_UI
           npm i
           npm run build
@@ -31,4 +31,4 @@ jobs:
           username: ${{ secrets.GIT_CPANEL_BALAJI_USER }}
           password: ${{ secrets.GIT_CPANEL_BALAJI_PWD }}
           protocol: ${{ secrets.GIT_CPANEL_BALAJI_PROTOCOL }}
-          local-dir: ./dist/sweet-kitchen-ui/browser
+          local-dir: ./dist/sweet-kitchen-ui/browser/
